@@ -27,7 +27,7 @@ git subl
 git status
 
 
-git commit 'm "blsblsblslbslb"
+git commit -m "blsblsblslbslb"
 
 git log 
 
