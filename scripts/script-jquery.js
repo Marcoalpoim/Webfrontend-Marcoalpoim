@@ -1,15 +1,24 @@
 $(document).ready(function () {
 
-    $('#destacarTexto').on('click', function () {
-        $('#texto').addClass('destaque');
+  const textodestacado = $('#destacarTexto');
+  const texto = $('#texto');
+
+       textodestacado.on('click', function () {
+        texto.addClass('destaque');
+        console.log('destaque do texto');
     });
 
-    $('#esconder').on('click', function () {
-      $('#bloco').hide();
+  
+const esconderbloco = $('#esconder');
+const mostrarbloco = $('#mostrar');
+const bloco = $('#bloco');
+
+    esconderbloco.on('click', function () {
+      bloco.hide();
     });
 
-    $('#mostrar').on('click', function () {
-      $('#bloco').show();
+    mostrarbloco.on('click', function () {
+      bloco.show();
     }); 
 
    // $('#animar').on('click', function () {

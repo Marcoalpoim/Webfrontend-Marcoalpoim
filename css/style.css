@@ -9,6 +9,15 @@ body {
     font-family: Helvetica, Arial, sans-serif;
 }
 
+.mainLogo {
+    width: 100px;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    border-radius: 50px;
+}
+
+
 .container-exercicios {
       display: flex;
       gap: 20px;
